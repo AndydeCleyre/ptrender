@@ -64,3 +64,16 @@ vwrite
         -n, --vars-name VALUE:str         Filename (excluding extension) for each vars file; the default is vars
         -t, --template-ext VALUE:str      Filename extension for templates; the default is t
     
+
+Installation
+------------
+
+.. code:: bash
+
+    pip install ptrender
+
+For yaml support:
+
+.. code:: bash
+
+    pip install 'ptrender[yaml]'
