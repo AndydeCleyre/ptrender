@@ -13,7 +13,7 @@ ptrender
 
 ::
 
-    ptrender 0.0.2
+    ptrender 0.0.3
     
     Use json or yaml var_files to render template_file to an adjacent
     file with the same name but the extension stripped
@@ -35,7 +35,7 @@ vwrite
 
 ::
 
-    vwrite 0.0.2
+    vwrite 0.0.3
     
     Use json or yaml vars files to render each template file found recursively
     under the working folder, to an adjacent file with the same name but the
