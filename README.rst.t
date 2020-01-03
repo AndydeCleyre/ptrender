@@ -25,3 +25,16 @@ vwrite
 <!--(for line in vwrite_help.splitlines())-->
     $! line !$
 <!--(end)-->
+
+Installation
+------------
+
+.. code:: bash
+
+    pip install ptrender
+
+For yaml support:
+
+.. code:: bash
+
+    pip install 'ptrender[yaml]'
