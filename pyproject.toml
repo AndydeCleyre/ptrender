@@ -6,8 +6,15 @@ build-backend = "flit_core.buildapi"
 module = "ptrender"
 author = "Andy Kluger"
 home-page = "https://github.com/andydecleyre/ptrender"
+description-file = "README.rst"
 license = "WTFPL"
 requires = ["plumbum", "pyratemp"]
+requires-python = ">=3.6"
+keywords = "pyratemp,template,render,renderer"
+classifiers = [
+    "Topic :: Text Processing :: Markup",
+    "Topic :: Utilities",
+]
 
 [tool.flit.metadata.requires-extra]
 dev = ["flit", "ipython"]
