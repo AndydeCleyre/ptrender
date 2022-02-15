@@ -1,4 +1,3 @@
-python-dateutil==2.8.1    # via strictyaml
-ruamel.yaml==0.16.5       # via strictyaml
-six==1.13.0               # via python-dateutil
-strictyaml==1.0.6
+python-dateutil==2.8.2    # via strictyaml
+six==1.16.0               # via python-dateutil
+strictyaml==1.6.1         # via -r yaml-requirements.in

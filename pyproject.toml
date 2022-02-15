@@ -1,25 +1,28 @@
 [build-system]
-requires = ["flit_core >=2,<3"]
+requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
-[tool.flit.metadata]
-module = "ptrender"
-author = "Andy Kluger"
-home-page = "https://github.com/andydecleyre/ptrender"
-description-file = "README.rst"
-license = "WTFPL"
-requires = ["plumbum", "pyratemp"]
+[project]
+name = "ptrender"
+authors = [{name = "Andy Kluger"}]
+readme = "README.rst"
+license = {file = "LICENSE"}
+keywords = ["pyratemp", "template", "render", "renderer"]
 requires-python = ">=3.6"
-keywords = "pyratemp,template,render,renderer"
+dynamic = ["version", "description"]
+dependencies = ["plumbum", "pyratemp"]
 classifiers = [
     "Topic :: Text Processing :: Markup",
     "Topic :: Utilities",
 ]
 
-[tool.flit.metadata.requires-extra]
-dev = ["flit", "ipython"]
-yaml = ["strictyaml"]
+[project.urls]
+Home = "https://github.com/andydecleyre/ptrender"
 
-[tool.flit.scripts]
+[project.optional-dependencies]
+yaml = ["strictyaml"]
+dev = ["flit", "ipython"]
+
+[project.scripts]
 ptrender = "ptrender.ptrender:TemplateRenderer"
 vwrite = "ptrender.ptrender:VWriter"

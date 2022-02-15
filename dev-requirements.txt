@@ -1,26 +1,37 @@
-backcall==0.1.0           # via ipython
-certifi==2019.11.28       # via requests
-chardet==3.0.4            # via requests
-decorator==4.4.1          # via ipython, traitlets
-docutils==0.15.2          # via flit
-flit-core==2.1.0          # via flit
-flit==2.1.0
-idna==2.8                 # via requests
-ipython-genutils==0.2.0   # via traitlets
-ipython==7.11.1
-jedi==0.15.2              # via ipython
-parso==0.5.2              # via jedi
-pexpect==4.7.0            # via ipython
+asttokens==2.0.5          # via stack-data
+backcall==0.2.0           # via ipython
+black==22.1.0             # via ipython
+certifi==2021.10.8        # via requests
+charset-normalizer==2.0.12  # via requests
+click==8.0.3              # via black
+decorator==5.1.1          # via ipython
+docutils==0.18.1          # via flit
+executing==0.8.2          # via stack-data
+flit==3.6.0               # via -r dev-requirements.in
+flit-core==3.6.0          # via flit
+idna==3.3                 # via requests
+ipython==8.0.1            # via -r dev-requirements.in
+jedi==0.18.1              # via ipython
+matplotlib-inline==0.1.3  # via ipython
+mypy-extensions==0.4.3    # via black
+parso==0.8.3              # via jedi
+pathspec==0.9.0           # via black
+pexpect==4.8.0            # via ipython
 pickleshare==0.7.5        # via ipython
-prompt-toolkit==3.0.2     # via ipython
-ptyprocess==0.6.0         # via pexpect
-pygments==2.5.2           # via ipython
-pytoml==0.1.21            # via flit, flit-core
-requests==2.22.0          # via flit
-six==1.13.0               # via traitlets
-traitlets==4.3.3          # via ipython
-urllib3==1.25.7           # via requests
-wcwidth==0.1.8            # via prompt-toolkit
+platformdirs==2.5.0       # via black
+prompt-toolkit==3.0.28    # via ipython
+ptyprocess==0.7.0         # via pexpect
+pure-eval==0.2.2          # via stack-data
+pygments==2.11.2          # via ipython
+requests==2.27.1          # via flit
+six==1.16.0               # via asttokens
+stack-data==0.2.0         # via ipython
+tomli==2.0.1              # via black, flit
+tomli-w==1.0.0            # via flit
+traitlets==5.1.1          # via ipython, matplotlib-inline
+typing-extensions==4.1.1  # via black
+urllib3==1.26.8           # via requests
+wcwidth==0.2.5            # via prompt-toolkit
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
